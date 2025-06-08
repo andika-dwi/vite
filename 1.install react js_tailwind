@@ -1,0 +1,27 @@
+ke terminal lalu ketik
+    // npm create vite@latest
+    -Project name : /nama project
+    -select framework : /react /javascript
+    
+    ke file directory lalu ketik /code .
+    lalu ketik /npm install /npm run dev
+    
+Instal Tailwind
+  
+    // npm install tailwindcss @tailwindcss/vite
+    
+ - vite.config.js
+  
+    // import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+  - CSS
+    // @import "tailwindcss";
+
+  - terminal
+    // npm run dev
