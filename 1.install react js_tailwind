@@ -1,5 +1,5 @@
 ke terminal lalu ketik
-    // npm create vite@latest
+    // npm create vite@latest  -- --template react
     -Project name : /nama project
     -select framework : /react /javascript
     
